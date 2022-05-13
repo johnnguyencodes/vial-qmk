@@ -12,7 +12,7 @@
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
  */
-#define LAYOUT_custom( \
+#define LAYOUT_james_oakes( \
     r10c1, r9c2, r10c2, r10c3, r10c4, r10c5, r10c6, r10c7, r10c8, r9c9, r10c9, r10c10,\
     r8c1, r9c1, r8c2, r7c2, r8c3, r9c3, r7c4, r8c4, r9c4, r8c5, r9c5, r8c6, r9c6, r8c7, r9c7, r8c8, r9c8, r7c9, r8c9, r8c10, r9c10,\
     r6c1, r7c1, r5c2, r6c2, r6c3, r7c3, r5c4, r6c4, r6c5, r7c5, r6c6, r7c6, r5c7, r6c7, r7c7, r6c8, r7c8, r5c9, r6c9, r6c10, r7c10,\

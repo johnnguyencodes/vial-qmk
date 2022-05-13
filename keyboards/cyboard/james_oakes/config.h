@@ -8,8 +8,8 @@
 #define VENDOR_ID    0xFEED
 #define PRODUCT_ID   0x0000
 #define DEVICE_VER   0x0001
-#define MANUFACTURER Custom
-#define PRODUCT      Custom
+#define MANUFACTURER Cyboard
+#define PRODUCT      Space Cadet
 
 /* key matrix size */
 #define MATRIX_ROWS 10
