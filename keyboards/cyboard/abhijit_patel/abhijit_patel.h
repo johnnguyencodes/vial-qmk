@@ -13,7 +13,7 @@
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
  */
-#define LAYOUT_GerryHernandez( \
+#define LAYOUT_abhijit_patel( \
   l3c6, l3c5, l3c4, l3c3, l3c2, l3c1,                               r3c1, r3c2, r3c3, r3c4, r3c5, r3c6, \
   l2c6, l2c5, l2c4, l2c3, l2c2, l2c1,                               r2c1, r2c2, r2c3, r2c4, r2c5, r2c6, \
   l1c6, l1c5, l1c4, l1c3, l1c2, l1c1, l1c0, l1ca,     r1ca, r1c0, r1c1, r1c2, r1c3, r1c4, r1c5, r1c6, \
