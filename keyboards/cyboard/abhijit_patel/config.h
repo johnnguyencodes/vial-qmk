@@ -10,7 +10,7 @@
 #define PRODUCT_ID   0x0000
 #define DEVICE_VER   0x0001
 #define MANUFACTURER Cyboard
-#define PRODUCT      abhijit_patel
+#define PRODUCT      "Abhijit's Cyboard"
 
 /* key matrix size */
 #define MATRIX_ROWS 8
