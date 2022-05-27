@@ -13,8 +13,8 @@
 #define PRODUCT      "Abhijit's Cyboard"
 
 /* key matrix size */
-#define MATRIX_ROWS 7
-#define MATRIX_COLS 18
+#define MATRIX_ROWS 14
+#define MATRIX_COLS 9
 
 /*
  * Keyboard Matrix Assignments
