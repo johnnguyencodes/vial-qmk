@@ -13,8 +13,8 @@
 #define PRODUCT      "Abhijit's Cyboard"
 
 /* key matrix size */
-#define MATRIX_ROWS 8
-#define MATRIX_COLS 8
+#define MATRIX_ROWS 7
+#define MATRIX_COLS 18
 
 /*
  * Keyboard Matrix Assignments
@@ -27,10 +27,10 @@
  *
  */
 
-#define MATRIX_ROW_PINS { D7, B5, E6, D3 }
-#define MATRIX_COL_PINS  { B6, B4, C6, D0, D1, D4, B1, F6 } 
-#define MATRIX_ROW_PINS_RIGHT { B1, B2, B3, F5 }
-#define MATRIX_COL_PINS_RIGHT  { B5, B6, F7, F6, F4, D1, D7, D4 }
+#define MATRIX_ROW_PINS { B6, D7, D5, B7, B5, D0, D3 }
+#define MATRIX_COL_PINS  { B2, C7, D1, B4, E6, C6, D4, F5, F7 }
+#define MATRIX_ROW_PINS_RIGHT { C7, D7, D5, B1, B6, F4, F6 }
+#define MATRIX_COL_PINS_RIGHT  { B5, B7, B2, B3, F7, F5, D4, D0, C6 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
