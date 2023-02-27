@@ -24,13 +24,13 @@
 #ifdef RGB_MATRIX_ENABLE
 #    define SPLIT_TRANSPORT_MIRROR
 #    define DRIVER_LED_TOTAL RGBLED_NUM
-#    define RGB_MATRIX_LED_COUNT RGBLED_NUM
+#    define RGB_MATRIX_SPLIT RGBLED_SPLIT
 #    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120
-#    define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_REACTIVE // Sets the default mode, if none has been set
-#    define RGB_MATRIX_DEFAULT_HUE 33 // Sets the default hue value, if none has been set
-#    define RGB_MATRIX_DEFAULT_SAT 255 // Sets the default saturation value, if none has been set
-#    define RGB_MATRIX_DEFAULT_SPD 50
-#    define RGB_MATRIX_DEFAULT_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS
+#    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_REACTIVE // Sets the default mode, if none has been set
+#    define RGB_MATRIX_STARTUP_HUE 33 // Sets the default hue value, if none has been set
+#    define RGB_MATRIX_STARTUP_SAT 255 // Sets the default saturation value, if none has been set
+#    define RGB_MATRIX_STARTUP_SPD 50
+#    define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED
 #    define RGB_MATRIX_KEYPRESSES
 #    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
