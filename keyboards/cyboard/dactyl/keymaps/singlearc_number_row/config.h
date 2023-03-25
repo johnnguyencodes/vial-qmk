@@ -8,3 +8,12 @@
 #define VIAL_UNLOCK_COMBO_COLS { 5, 6 }
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
+
+// -----------------------------------------------------------------------------
+// sunaku
+// -----------------------------------------------------------------------------
+
+// https://github.com/qmk/qmk_firmware/issues/18511#issuecomment-1264604610
+// https://github.com/qmk/qmk_firmware/issues/8990#issuecomment-851055637
+#undef SPLIT_USB_DETECT
+
