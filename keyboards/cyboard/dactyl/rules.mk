@@ -23,3 +23,6 @@ RGB_MATRIX_DRIVER = WS2812  # RGB matrix driver support
 
 SERIAL_DRIVER = vendor
 WS2812_DRIVER = vendor
+
+# https://github.com/qmk/qmk_firmware/issues/19593#issuecomment-1387476045
+NO_USB_STARTUP_CHECK = yes
