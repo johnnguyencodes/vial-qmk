@@ -11,7 +11,7 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
 SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
-NKRO_ENABLE = no            # USB Nkey Rollover
+NKRO_ENABLE = yes            # USB Nkey Rollover
 SPLIT_KEYBOARD = yes
 
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
@@ -23,6 +23,3 @@ RGB_MATRIX_DRIVER = WS2812  # RGB matrix driver support
 
 SERIAL_DRIVER = vendor
 WS2812_DRIVER = vendor
-
-# https://github.com/qmk/qmk_firmware/issues/19593#issuecomment-1387476045
-NO_USB_STARTUP_CHECK = yes

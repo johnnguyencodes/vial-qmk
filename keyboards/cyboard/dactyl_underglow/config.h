@@ -19,8 +19,8 @@
 
 /* RGB settings */
 #define RGB_DI_PIN GP1
-#define RGBLED_NUM 80
-#define RGBLED_SPLIT { 40, 40 }
+#define RGBLED_NUM 102
+#define RGBLED_SPLIT { 51, 51 }
 #ifdef RGB_MATRIX_ENABLE
 #    define SPLIT_TRANSPORT_MIRROR
 #    define DRIVER_LED_TOTAL RGBLED_NUM
@@ -92,6 +92,6 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
 
-// https://github.com/qmk/qmk_firmware/issues/18511#issuecomment-1264604610
-// https://github.com/qmk/qmk_firmware/issues/8990#issuecomment-851055637
-#undef SPLIT_USB_DETECT
+/* Bootmagic */
+#define BOOTMAGIC_LITE_ROW 3
+#define BOOTMAGIC_LITE_COLUMN 2
