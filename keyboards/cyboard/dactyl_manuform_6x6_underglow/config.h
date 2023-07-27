@@ -1,4 +1,4 @@
-﻿/* Copyright 2023 Cyboard LLC (@Cyboard-DigitalTailor)
+/* Copyright 2023 Cyboard LLC (@Cyboard-DigitalTailor)
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 
@@ -19,13 +19,13 @@
 
 /* RGB settings */
 #define RGB_DI_PIN GP1
-#define RGBLED_NUM 102
-#define RGBLED_SPLIT { 51, 51 }
+#define RGBLED_NUM 124
+#define RGBLED_SPLIT { 62, 62 }
 #ifdef RGB_MATRIX_ENABLE
 #    define SPLIT_TRANSPORT_MIRROR
 #    define DRIVER_LED_TOTAL RGBLED_NUM
 #    define RGB_MATRIX_SPLIT RGBLED_SPLIT
-#    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120
+#    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 60
 #    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_REACTIVE // Sets the default mode, if none has been set
 #    define RGB_MATRIX_STARTUP_HUE 33 // Sets the default hue value, if none has been set
 #    define RGB_MATRIX_STARTUP_SAT 255 // Sets the default saturation value, if none has been set
@@ -92,10 +92,9 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
 
-/* Bootmagic */
-#define BOOTMAGIC_LITE_ROW 3
-#define BOOTMAGIC_LITE_COLUMN 2
-
+// fix for device detection after cold boot
 // https://github.com/qmk/qmk_firmware/issues/18511#issuecomment-1264604610
 // https://github.com/qmk/qmk_firmware/issues/8990#issuecomment-851055637
 #undef SPLIT_USB_DETECT
+//https://www.reddit.com/r/ErgoMechKeyboards/comments/11qevf9/comment/jc5y8ux/?context=3
+#define USB_VBUS_PIN GP19
