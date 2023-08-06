@@ -2,7 +2,7 @@
     "manufacturer": "Cyboard",
     "maintainer": "Erik Trinkle",
     "url": "https://cyboard.digital",
-    "keyboard_name": "Dactyl",
+    "keyboard_name": "Cyboard Zergotech-like",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x0000",
