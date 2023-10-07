@@ -1,4 +1,4 @@
-# Cyboard Dactyls
+# Cyboard Dactyl - MODIFIED for user Chi's wiring
 
 * Keyboard Maintainer: [Cyboard](https://github.com/Cyboard-DigitalTailor)
 * Hardware Supported: Cyboard Dactyls with USB Type C Split Interconnect
