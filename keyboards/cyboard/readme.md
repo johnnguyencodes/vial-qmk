@@ -31,7 +31,7 @@ The `keymap.c` and `rules.mk` files are found in `keyboards/cyboard/imprint/impr
 Compile the firmware using this command from the root folder of this project:
 `qmk compile -kb cyboard/imprint/imprint_function_row_underglow -km vial`
 
-There will be an error regarding `tap_dance_actions`. Don't worry about that for now, you'll use Vial to configure it later.
+There will be an error regarding `multiple definitions of tap_dance_actions`. To get around this, rename the `tap_dance_actions` function in `keymap.c` to something else, like `tap_dance_actions_array`. Then run the above compile command again.
 
 When you're ready to flash, ensure both sides of the Imprint are connected to each other, and the left (master) side is connected to the computer. Double-press the reset button inside the small hole next to the USB-C ports on the master side of the Imprint. The device `RPI-RP2` will appear on your computer's devices, indicating it is ready to be flashed.
 
