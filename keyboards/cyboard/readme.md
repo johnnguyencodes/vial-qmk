@@ -36,7 +36,7 @@ There will be an error regarding `tap_dance_actions`. Don't worry about that for
 When you're ready to flash, ensure both sides of the Imprint are connected to each other, and the left (master) side is connected to the computer. Double-press the reset button on the left side of the Imprint near the USB-C ports. The device `RPI-RP2` will appear on your devices, indicating it is ready to be flashed.
 
 To flash the firmware onto the keyboard, run this command from the root folder of this project:
-`qmk compile -kb cyboard/imprint/imprint_function_row_underglow -km vial`
+`qmk flash -kb cyboard/imprint/imprint_function_row_underglow -km vial`
 
 If the RGB lights are on, you will see the lights flash off for a quick moment. The keyboard is now flashed!
 
