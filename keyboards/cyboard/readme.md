@@ -26,14 +26,14 @@ To flash the firmware to your Cyboard,
 
 ## John's Notes
 
-The keymap and rules files are found in `keyboards/cyboard/imprint/imprint_function_row_underglow/keymaps/vial/`. The keymap is based off this [Oryx layout](https://configure.zsa.io/voyager/layouts/nPqXx/rnjVj/3).
+The `keymap.c` and `rules.mk` files are found in `keyboards/cyboard/imprint/imprint_function_row_underglow/keymaps/vial/`. The keymap is based off this [Oryx layout](https://configure.zsa.io/voyager/layouts/nPqXx/rnjVj/3).
 
 Compile the firmware using this command from the root folder of this project:
 `qmk compile -kb cyboard/imprint/imprint_function_row_underglow -km vial`
 
 There will be an error regarding `tap_dance_actions`. Don't worry about that for now, you'll use Vial to configure it later.
 
-When you're ready to flash, ensure both sides of the Imprint are connected to each other, and the left (master) side is connected to the computer. Double-press the reset button on the left side of the Imprint near the USB-C ports. The device `RPI-RP2` will appear on your devices, indicating it is ready to be flashed.
+When you're ready to flash, ensure both sides of the Imprint are connected to each other, and the left (master) side is connected to the computer. Double-press the reset button inside the small hole next to the USB-C ports on the master side of the Imprint. The device `RPI-RP2` will appear on your computer's devices, indicating it is ready to be flashed.
 
 To flash the firmware onto the keyboard, run this command from the root folder of this project:
 `qmk flash -kb cyboard/imprint/imprint_function_row_underglow -km vial`
