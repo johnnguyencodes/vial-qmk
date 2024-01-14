@@ -37,5 +37,5 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
-#define BILATERAL_COMBINATIONS
+/* Prevent homerow mods from firing when finger rolling on same hand */
 #define BILATERAL_COMBINATIONS 500
