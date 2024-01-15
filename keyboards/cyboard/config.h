@@ -38,4 +38,19 @@
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
 /* Prevent homerow mods from firing when finger rolling on same hand */
-#define BILATERAL_COMBINATIONS 500
+#define BILATERAL_COMBINATIONS
+
+#define TAPPING_TERM 100 // TAP VS HOLD timing in milliseconds
+
+// Pick good defaults for enabling homerow modifiers
+#define TAP_CODE_DELAY 5
+#define TAP_HOLD_CAPS_DELAY 0
+#define PERMISSIVE_HOLD
+
+//Home row combo settings
+#define COMBO_ALLOW_ACTION_KEYS
+#define COMBO_STRICT_TIMER
+#define EXTRA_SHORT_COMBOS
+#define COMBO_TERM 20 // time to get all combo keys down.  The value 34 comes from TAPPING_TERM / 5
+#define COMBO_HOLD (COMBO_TERM*4) // time to hold to trigger delayed combo
+#define ADAPTIVE_TERM COMBO_HOLD  // use COMBO_HOLD time as a standard threshold (same recation time)
