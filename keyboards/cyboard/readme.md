@@ -43,3 +43,6 @@ If the RGB lights are on, you will see the lights flash off for a quick moment. 
 With the keyboard still connected, go to [Vial](https://vial.rocks/) and configure the tap dancing according to the notes listed at the bottom of `keyboard/cyboard/imprint/imprint_function_row_underglow/keymaps/vial/keymap.c`.
 
 To-do: Create some sweet custom RGB lighting effects
+To-do: Improve finger rolling experience and tap-dancing.
+
+-   Achordion is installed. Find more info here: [Achordion](https://getreuer.info/posts/keyboards/achordion/index.html)
